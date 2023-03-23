@@ -1,0 +1,5 @@
+# ignore all files in the results/ directory
+results.json
+
+# ignore all .DS_store files
+.DS_Store

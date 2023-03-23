@@ -1,8 +1,9 @@
 # vectara-eval
 A project that has scripts and libraries that help with using the Vectara platform.
 
-Most scripts require you to use authentication related arguments, copied from the web console, to run successfully. For example:
+Most scripts require you to use authentication related arguments, copied from the web console, to run successfully. To do this, create an App Client via the Authentication page, and then take note of the app client ID, the app client secret, and the authentication domain. You can get your customer ID from the top right section of the console. 
 
+For example:
 ```
 python3 vectara_query.py \
     --auth-url "<COPY FROM VECTARA CONSOLE>" \

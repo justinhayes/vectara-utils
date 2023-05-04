@@ -1,5 +1,9 @@
-# ignore all files in the results/ directory
+# ignore all results output files and directories
 results.json
+output/
 
 # ignore all .DS_store files
 .DS_Store
+
+# ignore IDE files
+.idea

@@ -1,5 +1,8 @@
 """ This is an example of calling the Vectara API to upload files to be indexed.
-It uses python and the REST API endpoint.
+It uses python and the REST API endpoint. If using the option to upload data that
+is stored on s3, you should have a "~/.aws/credentials" file that contains your
+AWS credentials. See the following URL for more information:
+https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html#configuring-credentials
 """
 
 import argparse
@@ -208,10 +211,13 @@ if __name__ == "__main__":
     parser.add_argument("--app-client-id",  required=True,
                         help="This app client should have enough rights.")
     parser.add_argument("--app-client-secret", required=True)
-    parser.add_argument("--auth-url",  required=True,
+    parser.add_argument("--auth-url",  required=False,
                         help="The cognito auth url for this customer.")
+
     parser.add_argument("--local-file-path", help="Relative path to the file to upload to the corpus.")
+
     parser.add_argument("--local-dir-path", help="Relative path to the directory to upload to the corpus.")
+
     parser.add_argument("--s3-bucket", help="Bucket name to upload from. Just the name (e.g. mybucket) and "
                                             "not a full URI.")
     parser.add_argument("--s3-path-prefix", help="Path from the root of the bucket to the sub folder where the files "
@@ -221,7 +227,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args:
-        token = _get_jwt_token(args.auth_url, args.app_client_id, args.app_client_secret)
+        auth_url = args.auth_url
+        if auth_url == "" or auth_url is None:
+            auth_url = f"https://vectara-prod-{args.customer_id}.auth.us-west-2.amazoncognito.com"
+        token = _get_jwt_token(auth_url, args.app_client_id, args.app_client_secret)
 
         if token:
             if args.local_file_path:

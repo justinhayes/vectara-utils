@@ -42,6 +42,13 @@ def _get_summarize_json(customer_id: int, corpus_id: int, query_value: str, lamb
 
     query_obj["context_config"] = context_config
 
+    summary = {}
+    summary["summarizerPromptName"] = "vectara-summary-ext-v1.2.0"
+    summary["maxSummarizedResults"] = 3
+    summary["responseLang"] = "auto"
+
+    query_obj["summary"] = summary
+
     query["query"] = [ query_obj ]
     return json.dumps(query)
 
@@ -63,7 +70,7 @@ def summarize(customer_id: int, corpus_id: int, jwt_token: str, query: str, lamb
     }
 
     response = requests.post(
-        "https://api.vectara.io/exp/query-and-interpret",
+        "https://api.vectara.io/v1/query",
         data=_get_summarize_json(customer_id, corpus_id, query, lambda_val),
         verify=True,
         headers=post_headers)

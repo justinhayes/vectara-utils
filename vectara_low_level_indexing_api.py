@@ -2,8 +2,8 @@ import json
 import requests
 
 
-_CUSTOMER_ID=26983110
-_CORPUS_ID=125
+_CUSTOMER_ID=123456789
+_CORPUS_ID=1
 _API_KEY="zwt_..."
 
 document = {}

@@ -1,0 +1,1339 @@
+{
+  "section": [
+    {
+      "title": "Remarks by John Pancari",
+      "id": 1,
+      "section": [
+        {
+          "id": 2,
+          "text": "Good morning.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"John Pancari\", \"section_number\": 1, \"uuid\": \"329009a1-8e5f-409d-9df2-c4b3e2599ff4\", \"speaker_title\": \"Analyst at Evercore ISI\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 3,
+      "section": [
+        {
+          "id": 4,
+          "text": "Hey, good morning, John.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 2, \"uuid\": \"57be94b6-82cb-407a-a4f5-e8983a92f729\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 5,
+      "section": [
+        {
+          "id": 6,
+          "text": "Hey, John.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 3, \"uuid\": \"b2deb5c7-97d2-4c8b-b03c-8dbae91e2156\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by John Pancari",
+      "id": 7,
+      "section": [
+        {
+          "id": 8,
+          "text": "On the net interest income side, wanted to see if you can give us a little more thought around the deposit costs, potentially maybe if you can give us your updated thoughts on where the cumulative beta. I know you're in the 30% or just over 30% now 31%, where that could trend to? What's your updated expectation there? And then also maybe on the non-interest-bearing mix, I know it's 29% of total deposits now. How do you expect that trend over the course of the next year? Thanks.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"John Pancari\", \"section_number\": 4, \"uuid\": \"9fd41289-5a61-4f64-bf93-c28e8515b414\", \"speaker_title\": \"Analyst at Evercore ISI\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 9,
+      "section": [
+        {
+          "id": 10,
+          "text": "Sure. Why don't I take the second one first in terms of the mix. Consistent with our expectations in a rising rate environment, we expect the mix to go more into interest-bearing, and we're seeing that. But it's right on track, no big surprise there. We're right now at 29% non-interest-bearing. I'd imagine that over the course of '23, we will go down a bit. Our previous low in previous cycles was around 25%. So I think that's a good way to sort of think about it.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 5, \"uuid\": \"bd0ec69c-5d53-4333-8882-27c094743f19\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        },
+        {
+          "id": 11,
+          "text": "In terms of the betas, you're right. We finished the year right on top of where we expected. As you know, betas lagged past historical increases for most of '22 for us and for the industry. And going forward, we expect maybe that lag could sort of compress a bit and we'll start tracking to historical rises, but nothing particularly unusual. And of course, we don't control that, that will be an outcome.",
+          "metadata_json": "{\"paragraph_number\": 2, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 5, \"uuid\": \"bd0ec69c-5d53-4333-8882-27c094743f19\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 12,
+      "section": [
+        {
+          "id": 13,
+          "text": "Hey, John. If you're trying to dig into -- I had made a comment at Goldman that we thought our NII might track to an annualized fourth quarter. And in our guide we look a little light to that. All of that pressure it's not coming from funding, it's coming from the spread on loans. So where we've been surprised, I've been surprised is we just haven't seen spreads widened in corporate credit.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 6, \"uuid\": \"df2dfa89-2fe2-4d9f-b980-758314bb6f2e\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        },
+        {
+          "id": 14,
+          "text": "So I guess, what I would say to you is, something -- there is this disconnect and something is going to give; either corporate spreads are going to widen or our current scenario that we have forecasted for CECL is wrong. So right now, we basically guide, I guess, kind of where spreads are. Maybe we get some widening and we put in this mild recession in CECL. So we have a little bit of disconnect in the numbers, but they are what they are.",
+          "metadata_json": "{\"paragraph_number\": 2, \"speaker\": \"William S. Demchak\", \"section_number\": 6, \"uuid\": \"df2dfa89-2fe2-4d9f-b980-758314bb6f2e\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 15,
+      "section": [
+        {
+          "id": 16,
+          "text": "Yeah, and that gets of course to our guidance for the full year in terms of NII. So the upside would be to Bill's point that loan spreads would widen as they should if we get into the economy that everybody's prepared for.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 7, \"uuid\": \"6ca461a4-1dc9-491e-8f4e-5723e4bea1b4\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by John Pancari",
+      "id": 17,
+      "section": [
+        {
+          "id": 18,
+          "text": "So that widening would provide upside to that 11% to 13%?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"John Pancari\", \"section_number\": 8, \"uuid\": \"265714d1-5cbe-403a-9277-622304ab4a66\", \"speaker_title\": \"Analyst at Evercore ISI\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 19,
+      "section": [
+        {
+          "id": 20,
+          "text": "Yeah. So none of the change in kind of thought on NII is driven by any change in our assumption on betas or deposit growth. We have pretty healthy deposits this quarter. We think we can continue that, it's all on this. We have an ability, particularly in the new markets, to grab a whole bunch of new clients, make new loans that are good credit loans, kind of invest into this as we've done in our new markets for years, invest into client growth. The problem is, the return right now struggles because we haven't seen spreads gap the way we've seen in the public markets, the way we might expect given the economy we're kind of forecasting.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 9, \"uuid\": \"2682e1ff-eaf9-4992-873b-1b35c5a0992d\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\", \"pii\": true}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by John Pancari",
+      "id": 21,
+      "section": [
+        {
+          "id": 22,
+          "text": "Got it. Okay. Thanks, Bill. And then separately on the credit side, could you give us a little more color on the $100 million increase in charge-offs. What was the size of the commercial credit? What was the industry? Are you seeing any other developments related to that credit or other areas of your portfolio were flagging just given the lumpiness and the size of that one issue? Thanks.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"John Pancari\", \"section_number\": 10, \"uuid\": \"89e7be53-f46f-4604-885a-dc6aeabe75d0\", \"speaker_title\": \"Analyst at Evercore ISI\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 23,
+      "section": [
+        {
+          "id": 24,
+          "text": "Yeah. I mean, you can jump in here, Rob. That one credit has been staring us in the face for a while. We've been working on it. It's a credit that both BBVA and PNC were in. So it shows up as outsized. We have big reserves against it. As you've seen in our non-performance and our delinquencies there, it's going down. This is kind of, I don't know what you call, is something going through a snake. But we've been staring at it and we charged it off. And that's showing the elevation this quarter, but I wouldn't read into that.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 11, \"uuid\": \"d7eece33-948e-4c43-af6e-137a901865f7\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 25,
+      "section": [
+        {
+          "id": 26,
+          "text": "No underlying trend or anything problematic with the asset category.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 12, \"uuid\": \"398ef80f-fcbb-47af-9b4e-f7b5998f6b54\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by John Pancari",
+      "id": 27,
+      "section": [
+        {
+          "id": 28,
+          "text": "What was that industry?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"John Pancari\", \"section_number\": 13, \"uuid\": \"bdecf1a9-9bb0-4200-a6e1-a559ddadee0b\", \"speaker_title\": \"Analyst at Evercore ISI\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 29,
+      "section": [
+        {
+          "id": 30,
+          "text": "Telecommunications.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 14, \"uuid\": \"c910da86-5350-49c7-88f8-9d0e317303d5\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by John Pancari",
+      "id": 31,
+      "section": [
+        {
+          "id": 32,
+          "text": "Okay. All right. Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"John Pancari\", \"section_number\": 15, \"uuid\": \"2faac5a2-8c8c-428f-93d4-743efcc472a4\", \"speaker_title\": \"Analyst at Evercore ISI\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 33,
+      "section": [
+        {
+          "id": 34,
+          "text": "Sure.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 16, \"uuid\": \"83cf0397-9da4-4334-bb64-7ebe85874e1b\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by John E. McDonald",
+      "id": 35,
+      "section": [
+        {
+          "id": 36,
+          "text": "Hi. Good morning. Rob, I wanted to just follow up on the NII question, sort of John there. Can you just remind us where you are on kind of interest rate positioning? Building in small rate hikes in the beginning of the year or maybe cut later. How do rate hikes from here kind of impact you? And just a reminder of where you are on the swap book and how that's influencing NII today and how it rolls off would be helpful?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"John E. McDonald\", \"section_number\": 18, \"uuid\": \"76432432-b9d8-42c8-87b8-028c21e204d7\", \"speaker_title\": \"Analyst at Autonomous Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 37,
+      "section": [
+        {
+          "id": 38,
+          "text": "Well, sure. Let me -- I'll try to cover some of that and then we can follow that up. I mean, definitely, we're positioned to benefit from the two rate hikes that we expect, 25 basis points each in February and March. We do have a 25 basis point cut in December, but that won't play largely in the '23 performance. So we're positioned well against that and we'll grow our NII. We're pointing to between 10% and 13% in terms of that range year-over-year. I will say, when we jumped into this right away, forecasting for a full year in terms of guidance is always difficult. This year, in particular, it's more difficult than most. You've heard that sentiment from some of our peers that have already reported. Really difficult because of all the uncertainties that we all know about.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 19, \"uuid\": \"e1ba41f6-5981-43ce-ac1f-b890a01a49f5\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        },
+        {
+          "id": 39,
+          "text": "So we put out what we think we can achieve. That's -- Bill and I talked a little bit about maybe some upside to that in terms of loan spreads. But everything that we know now with all the uncertainties, that's where we're positioned. No big change in terms of our rate management, in terms of the swaps we've disclosed at around $40 billion or so. But of course, that's all part of how we manage the balance between our fixed and variable.",
+          "metadata_json": "{\"paragraph_number\": 2, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 19, \"uuid\": \"e1ba41f6-5981-43ce-ac1f-b890a01a49f5\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 40,
+      "section": [
+        {
+          "id": 41,
+          "text": "The simplest way to think about that, John, is we -- through the course of the year, the DV01 or the sensitivity we have for our long positions as if anything, decreased. So think about that in terms of both the securities book and the swap book. So we remain largely asset-sensitive, happy with that position. I mean that over time changes with the mix of swaps and securities. The swaps themselves, it's kind of irrelevant to look at them separately, but they're very short and they roll off in big bulk a couple of years.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 20, \"uuid\": \"77cb114d-471b-4760-a34d-3fdf8cdc0fed\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 42,
+      "section": [
+        {
+          "id": 43,
+          "text": "2.5.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 21, \"uuid\": \"c55bcd51-c2cd-48ab-bef6-5570f7a48c23\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by John E. McDonald",
+      "id": 44,
+      "section": [
+        {
+          "id": 45,
+          "text": "Okay, thanks. And Rob, maybe as a follow-up, could you unpack a little bit of the outlook for the fee revenues that you gave for 2023, just some of the headwinds and tailwinds that are leading to that outcome on the non-interest income?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"John E. McDonald\", \"section_number\": 22, \"uuid\": \"c2bb7142-e5e7-4d99-b326-49b7a77a6aa4\", \"speaker_title\": \"Analyst at Autonomous Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 46,
+      "section": [
+        {
+          "id": 47,
+          "text": "Yeah. Sure, John. So just in terms of the categories where we expect to see growth capital markets, we do expect mid-single-digit growth, which is good and consistent with our expectations. Our steady Eddie, card and cash management will probably be up high-single-digits. And then those two will be offset by continuing headwinds in our asset management given the equity markets as well as lower mortgage production. So you put all that together and that's how we get into our stable to up 1% for the full year.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 23, \"uuid\": \"e70d8129-83aa-4e59-9fe7-d188040256a6\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by John E. McDonald",
+      "id": 48,
+      "section": [
+        {
+          "id": 49,
+          "text": "Got it. Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"John E. McDonald\", \"section_number\": 24, \"uuid\": \"a2ac83ce-0447-4ac5-8eeb-07f63d1a5660\", \"speaker_title\": \"Analyst at Autonomous Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 50,
+      "section": [
+        {
+          "id": 51,
+          "text": "Sure.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 25, \"uuid\": \"bb7b3c8b-3893-4352-87a3-5c50f18aaf00\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Gerard Cassidy",
+      "id": 52,
+      "section": [
+        {
+          "id": 53,
+          "text": "Thank you. Hi, Rob. Hi, Bill.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Gerard Cassidy\", \"section_number\": 27, \"uuid\": \"61f4d6b1-35b6-4c58-8ee2-361b30d46e9c\", \"speaker_title\": \"Analyst at RBC Capital Markets\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 54,
+      "section": [
+        {
+          "id": 55,
+          "text": "Hey, good morning, Gerard -- Gerald. Also known as.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 28, \"uuid\": \"e884a275-180e-481e-b3fd-0834f077fb29\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Gerard Cassidy",
+      "id": 56,
+      "section": [
+        {
+          "id": 57,
+          "text": "I've been called worse, Rob. Bill, coming back to your thoughts on the spreads that you guys just referenced on the commercial loan book relative to the CECL outlook, and I'm glad you framed it that way because I think many of us are in that camp that you just described. But in terms of the spreads, is there any capacity issues, meaning there's too much lending capacity, which has kept the spreads maybe lower than normal?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Gerard Cassidy\", \"section_number\": 29, \"uuid\": \"f47009a1-d2dc-4460-83da-8bed153d18bd\", \"speaker_title\": \"Analyst at RBC Capital Markets\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 58,
+      "section": [
+        {
+          "id": 59,
+          "text": "I'm not sure what's going on, to be honest with you. I mean there's -- on the smaller end in certain retail categories, which really isn't our focus, there's just irrational competition in certain asset categories. In the larger corporate space where we have this opportunity to grow clients, particularly in the new market and ultimately cross-sell, there just hasn't been any sort of gap the way you've seen in the public markets. There hasn't been any real change. Spreads aren't going down, but there hasn't been any change at all with respect to kind of the outlook in this economy. And until -- and if there's real defaults and charge-offs, there probably won't be. So one of these things is going to give, I just don't know which one it is.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 30, \"uuid\": \"d1cd1a70-fbb5-47dd-95d2-74ba15760982\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Gerard Cassidy",
+      "id": 60,
+      "section": [
+        {
+          "id": 61,
+          "text": "Very good. No, I noticed in your Table 10 in the supplement, the inflows of non-performance had been pretty steady. So there's real -- excuse me, real evidence yet. Thank you for that. And then as a follow-up, can you just remind us your outlook for returning capital to shareholders in the upcoming year with dividends and share repurchases?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Gerard Cassidy\", \"section_number\": 31, \"uuid\": \"ea8085c9-b315-4d5e-a52d-1b5d7658cbaa\", \"speaker_title\": \"Analyst at RBC Capital Markets\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 62,
+      "section": [
+        {
+          "id": 63,
+          "text": "Yeah. Hey, Gerard. And just to finish up on that on the credit spot, to your point, in the supplement, that do non-performers, but also you take a look at our NPAs and our delinquencies, which are down. So the leading indicators are still very strong.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 32, \"uuid\": \"aee64d04-128f-471d-aeb4-ad8826856cb6\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Gerard Cassidy",
+      "id": 64,
+      "section": [
+        {
+          "id": 65,
+          "text": "Agreed.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Gerard Cassidy\", \"section_number\": 33, \"uuid\": \"44a498c4-6752-49c6-92b0-79f735920cd3\", \"speaker_title\": \"Analyst at RBC Capital Markets\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 66,
+      "section": [
+        {
+          "id": 67,
+          "text": "Yeah. On the share repurchases, a couple of things. One is, we are going to continue our share repurchase program into '23. Secondly, it will be at a reduced rate relative to what we did in 2022 and likely to be less than what we did in the fourth quarter of '22, which was $600 million.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 34, \"uuid\": \"c601fc11-c175-46b1-aabc-ac3f34f4d68d\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        },
+        {
+          "id": 68,
+          "text": "A couple of things about that. One is, why lower? One is, given all the uncertainties that we're seeing, obviously, we need to be smart and tactical in terms of our capital deployment as the year plays out. But secondly and just logically, the rate of repurchases slows when your capital ratios go from 10% to 9%. So we still have a lot of capital flexibility. But by definition, as we get closer to those operating guidelines, we slow the pace of repurchases. All that said, there's flexibility, as you know. So with the stress capital buffer, we're allowed a lot of flexibility around it. And we plan to use that flexibility as circumstances present themselves.",
+          "metadata_json": "{\"paragraph_number\": 2, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 34, \"uuid\": \"c601fc11-c175-46b1-aabc-ac3f34f4d68d\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Gerard Cassidy",
+      "id": 69,
+      "section": [
+        {
+          "id": 70,
+          "text": "Great. Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Gerard Cassidy\", \"section_number\": 35, \"uuid\": \"630c3a99-c274-476b-b6ed-1d0664347f66\", \"speaker_title\": \"Analyst at RBC Capital Markets\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Bill Carcache",
+      "id": 71,
+      "section": [
+        {
+          "id": 72,
+          "text": "Thank you. Good morning, Bill and Rob. Following up on your swaps commentary, could you speak broadly to how you're thinking about downside protection in this environment? Any color you can give on where you'd expect your NIM to settle if the Fed ultimately pushes the economy into, say, a mild recession cuts rates and Fed funds normalizes, say, somewhere in the 2.5% to 3% level, that would be great?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Bill Carcache\", \"section_number\": 37, \"uuid\": \"40e60259-f841-4843-8cad-e84274539127\", \"speaker_title\": \"Analyst at Wolfe Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 73,
+      "section": [
+        {
+          "id": 74,
+          "text": "I have to write all that down in terms of your assumptions there. I would say in terms of NIM, because obviously, we get that question a lot. It's obviously an outcome. So we don't guide to it. We don't necessarily manage to it. I think when you just take a step back, you can see that we finished the quarter and finished the year at 292 -- 2.92%. That's up from all of '21 where we lived at 2.27%. So that 65 basis point jump or so, that's occurred. We don't expect those kinds of swings going forward. So going forward, we're now probably more like 5 or 6 basis point swings off of these levels. And that's sort of the way that I think about it.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 38, \"uuid\": \"413c0479-bb78-4188-bcb5-569c3b292ed4\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\", \"pii\": true}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Bill Carcache",
+      "id": 75,
+      "section": [
+        {
+          "id": 76,
+          "text": "Got it. Separately, there's been some concern that we could see the mix of time deposits and non-interest-bearing deposits return not just to pre-COVID levels, but perhaps back to even pre-GFC levels in this environment. Can you speak to that risk, both broadly at the industry level and more specifically as it relates to PNC?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Bill Carcache\", \"section_number\": 39, \"uuid\": \"ba29cb6c-3cf4-4a4f-b741-70ace6cf1df7\", \"speaker_title\": \"Analyst at Wolfe Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 77,
+      "section": [
+        {
+          "id": 78,
+          "text": "I mean, look, we're in a bit of an unknown environment. We have the Fed going through QT. We have the Fed absorbing deposits through their reverse repo facility. We have, at least in our case, the ability to grow loans. So you could see a scenario where deposits get scarce. We've priced some of that that's in our forward guide. In terms of our best look on that, you can draw upside and downside to that, kind of to Rob's point, this coming year and the years after that are harder to forecast and model than some of the stability we had pre-COVID. So we're doing our best and you've seen our best expectations.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 40, \"uuid\": \"e2d6999b-dd1d-49b7-a4e3-fab002092a0e\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 79,
+      "section": [
+        {
+          "id": 80,
+          "text": "Yeah, I think that's right. And in regard to the mix between non-interest-bearing and interest-bearing so far, the shift that has occurred is perfectly consistent with what we've seen historically and consistent with our expectations.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 41, \"uuid\": \"22897565-f3cb-46f6-820e-6aba965bbc94\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Bill Carcache",
+      "id": 81,
+      "section": [
+        {
+          "id": 82,
+          "text": "That's helpful, Bill and Rob. Thank you. If I may squeeze in one last one. I wanted to dig in a little bit into your expectation for a weaker economic outlook and mild recession and sort of square that with your reserve rate having been basically unchanged sequentially. So it suggests that most of the reserve build was really growth driven. Maybe if the economic outlook does grow more challenging, consistent with that mild recession scenario, would it be reasonable to expect that your reserve rate could actually hold your current levels or would it still likely drift a little bit higher from here? Any thoughts around that would help.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Bill Carcache\", \"section_number\": 42, \"uuid\": \"535ff2c9-2461-441a-a177-75f997dc1ff2\", \"speaker_title\": \"Analyst at Wolfe Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 83,
+      "section": [
+        {
+          "id": 84,
+          "text": "Yeah. So a lot of moving pieces here, but start with the basic notion that we are fully reserved for the book that we hold today against a forecast that we just -- we more heavily weighted the recessionary forecast than we had in the third quarter. And then remember, the charge-offs that we took this quarter, particularly the lumpier ones, we mentioned one. Those were in a large way already reserved. So our build, right, is actually more than you think. The ratio ends up the same, but we have kind of less -- we have lower non-performers inside of that total book as a percentage, maybe think of it that way.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 43, \"uuid\": \"1401f08e-7a00-42e7-8715-51327a76af7b\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        },
+        {
+          "id": 85,
+          "text": "In terms of coming to that 17 [Phonetic]. And then I'd also just remind you of our -- wherever we sit today at 17 both first day CECL to now or what we have now relative to others against the composition of our loan book, we've been at this in a fairly -- we think correctly, but nonetheless conservative process approach using CECL.",
+          "metadata_json": "{\"paragraph_number\": 2, \"speaker\": \"William S. Demchak\", \"section_number\": 43, \"uuid\": \"1401f08e-7a00-42e7-8715-51327a76af7b\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Bill Carcache",
+      "id": 86,
+      "section": [
+        {
+          "id": 87,
+          "text": "Super helpful. Thank you for taking my questions.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Bill Carcache\", \"section_number\": 44, \"uuid\": \"11aa60e2-0572-471b-b16e-f63f91d66249\", \"speaker_title\": \"Analyst at Wolfe Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Betsy Graseck",
+      "id": 88,
+      "section": [
+        {
+          "id": 89,
+          "text": "Hey, good morning.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Betsy Graseck\", \"section_number\": 46, \"uuid\": \"79601a60-73af-44ca-b96b-15f352d4c357\", \"speaker_title\": \"Analyst at Morgan Stanley\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 90,
+      "section": [
+        {
+          "id": 91,
+          "text": "Good morning.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 47, \"uuid\": \"ec8ee97f-af64-4f24-99b3-db02d73d80ea\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Betsy Graseck",
+      "id": 92,
+      "section": [
+        {
+          "id": 93,
+          "text": "I wanted to talk a little bit about the expense side. And I know you mentioned that there was a part of the expenses this quarter that was associated with revenue generating activities like capital markets, and so that is a net positive to PPOP. So let's leave those expenses aside. I wanted to dig in more to the expenses that did not come with commensurate revenues and understand what the drivers were behind those increasing. And then talk a little bit about your outlook for 2023 off of what is now higher based on what people have been expecting coming into this today?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Betsy Graseck\", \"section_number\": 48, \"uuid\": \"1b04f4cb-fa01-4511-84ed-de7fa9ea25e4\", \"speaker_title\": \"Analyst at Morgan Stanley\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 94,
+      "section": [
+        {
+          "id": 95,
+          "text": "Sure. I can start there. So in regard to the fourth quarter expenses, the biggest driver of the increase was personnel expense. And to your point, inside of that, the variable comp associated with the higher business activity. In addition to that, we did have some medical expenses that we expect seasonally, but they came in a little bit higher than what we would have expected. Outside of that...",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 49, \"uuid\": \"fa539ef0-03f4-4512-baf2-22841884230b\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 96,
+      "section": [
+        {
+          "id": 97,
+          "text": "Explain why it's seasonal.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 50, \"uuid\": \"81f3ffd2-bee6-40ff-87e1-7c37c53ff693\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 98,
+      "section": [
+        {
+          "id": 99,
+          "text": "Seasonal. Well, sure. Well, essentially...",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 51, \"uuid\": \"329e670d-615d-4b3b-86cc-3daf70ae73ca\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 100,
+      "section": [
+        {
+          "id": 101,
+          "text": "Not only that thing, and basically burn through your...",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 52, \"uuid\": \"c5e8204e-1216-4e01-91bb-7b23a56d50da\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 102,
+      "section": [
+        {
+          "id": 103,
+          "text": "The deductibles. Yeah, the deductibles and then like the company takes over after that. So -- and that happens, that happens seasonally. This season, it was a little bit higher than what we expected. Outside of that, when you look at the marketing spend, that's sort of timing in terms of how that falls in the year. But the impairments that we took on various investments and assets, which is part of your question, there wasn't anything singular that would stand out. It was a...",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 53, \"uuid\": \"f0edbe99-3a4b-4312-9f80-2389b646c8f5\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 104,
+      "section": [
+        {
+          "id": 105,
+          "text": "Yeah, there was. We wrote off everything we had to do with crypto.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 54, \"uuid\": \"4d5b2048-fb1c-44cb-ac30-748b363026d0\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 106,
+      "section": [
+        {
+          "id": 107,
+          "text": "Well, that was part of it. That was part of it. So maybe Bill wants to answer these questions. But I would say there wasn't anything singular. There's a handful of items that we took down in technology, and that shows up in our equipment expense. In occupancy, there were some facilities that we rightsized for our space needs going forward, that kind of thing. So on the margin...",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 55, \"uuid\": \"db92ae80-5738-449b-9e47-789dba5b58fc\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\", \"pii\": true}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 108,
+      "section": [
+        {
+          "id": 109,
+          "text": "[Indecipherable]",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 56, \"uuid\": \"46ff4c77-d56c-461d-a73a-9b452aa2dc8c\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 110,
+      "section": [
+        {
+          "id": 111,
+          "text": "Okay. Yes, sure. And then on the margin, the -- I'm sorry, just going into -- Bill's giving me another question, but I'd say on the margin going into '23, those impairments reduced some of our expense rates, so that sort of helped. So our guide is 2% to 4% in all of '23. That's how that all stays connected.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 57, \"uuid\": \"428c30e0-eea2-4461-b9af-1046f77decce\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 112,
+      "section": [
+        {
+          "id": 113,
+          "text": "Betsy, it's kind of frustrating because none of the stuff in our expense line in the fourth quarter has anything to do with how we spend money. I mean, the comp with new business is great. Everything else was kind of -- we flushed a couple tech projects that didn't work out. We rightsized occupancy. Marketing went up a little bit. And then we get hit this quarter on charge-offs, which are -- I'm not going to call them artificially high. They are what they are, but they're kind of lumpy as a function of something that we've been staring at for a while and that finally hits the books.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 58, \"uuid\": \"b7d40f1b-0736-42ab-a228-720e6947fc37\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 114,
+      "section": [
+        {
+          "id": 115,
+          "text": "And we're largely reserved to your other point.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 59, \"uuid\": \"793365e6-73b0-4df2-932c-c0863587e192\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Betsy Graseck",
+      "id": 116,
+      "section": [
+        {
+          "id": 117,
+          "text": "Okay. So as I think about the guide into next year for total expenses up 2% to 4%, that is really related more towards your revenues of 6% to 8% and this crypto thing, whatever is a one-time, one and done [Speech Overlap]",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Betsy Graseck\", \"section_number\": 60, \"uuid\": \"bab728a0-dea4-4081-aebe-6912d1d5fc2d\", \"speaker_title\": \"Analyst at Morgan Stanley\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 118,
+      "section": [
+        {
+          "id": 119,
+          "text": "And that's why -- and I said in my opening comments, we point to strong positive operating leverage in '23.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 61, \"uuid\": \"4a2e8377-6cf4-4ca5-a1d0-5b8b2c9eef76\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Betsy Graseck",
+      "id": 120,
+      "section": [
+        {
+          "id": 121,
+          "text": "Okay. All right. And then separately, I know we talked a little bit earlier about the capital and the fact that your CET1 has been migrating down as you've been doing some nice lending, etc. Just wanted to understand the RWA density. It looks like it's gone up a bit. And I just wanted to understand, is that just loan growth or is there something else going on there? Is there some changes in how you think about RWA factors? And then I'm just wondering like how -- what is the low on CET1 that you're willing to drive to as we think about demand for borrowing is still pretty robust?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Betsy Graseck\", \"section_number\": 62, \"uuid\": \"3fc17bbc-c93c-4282-a6c7-554f084f48dd\", \"speaker_title\": \"Analyst at Morgan Stanley\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 122,
+      "section": [
+        {
+          "id": 123,
+          "text": "Well, so a couple of things on that. I would say in terms of the RWA increase, it's entirely loan driven. So we've had a lot of loan growth in '22, a lot in the fourth quarter with that 3% growth in average loans. So that's the key driver of the RWA increase. Our CET ratio is at 9.1%. We've talked about an operating guideline of between 8.5% and 9%. So we're still above our operating guidelines and that's a good place to be.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 63, \"uuid\": \"3f7dfb90-a0b9-4d6f-84b3-c80627de586d\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Betsy Graseck",
+      "id": 124,
+      "section": [
+        {
+          "id": 125,
+          "text": "Okay. So 8.5% the low, really that's how we should read it.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Betsy Graseck\", \"section_number\": 64, \"uuid\": \"7da9cf50-1c35-4435-97b7-b67aa2413377\", \"speaker_title\": \"Analyst at Morgan Stanley\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 126,
+      "section": [
+        {
+          "id": 127,
+          "text": "Yeah.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 65, \"uuid\": \"82b336a1-d5fd-42c8-9e7e-11053eef845c\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Betsy Graseck",
+      "id": 128,
+      "section": [
+        {
+          "id": 129,
+          "text": "Okay. All right. Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Betsy Graseck\", \"section_number\": 66, \"uuid\": \"c22f8cd1-f962-4366-b921-bfaf9d408933\", \"speaker_title\": \"Analyst at Morgan Stanley\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 130,
+      "section": [
+        {
+          "id": 131,
+          "text": "Sure.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 67, \"uuid\": \"bae8d152-dad2-49f7-8ac6-bc31bf5b838c\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Ken Usdin",
+      "id": 132,
+      "section": [
+        {
+          "id": 133,
+          "text": "Thanks. Good morning. I was wondering if you guys could talk about the still potential for the TLAC rules that come down to the category 3s and how you would be thinking about either getting ahead of that or starting to issue or do you just have to wait for the final notice and then consider a phase-in period?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Ken Usdin\", \"section_number\": 69, \"uuid\": \"5154a63e-f29c-4e56-bd0d-55b45fe4ba37\", \"speaker_title\": \"Analyst at Jefferies\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 134,
+      "section": [
+        {
+          "id": 135,
+          "text": "I mean a lot of people talking about this, not a lot happening around it. Where it to happen, by the way, we disagree with it, but let's walk down the path and say somehow down the road people suggest that this should happen and there would be a phase-in period. Practically, as we look the growth opportunity in our company, new clients' loan growth against what it is likely to be a constrained ability to grow total deposits, right, you're going to see our wholesale borrowings increase. And in the course of our wholesale borrowings increase in the ordinary course of business, we're going to fulfill all our parts of that TLAC requirement. All of that is in the numbers we're talking to you about, it will take more than next year. But in the way we think about [Speech Overlap]",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 70, \"uuid\": \"0ada0707-267a-4331-aa2e-fe41e66640fc\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 136,
+      "section": [
+        {
+          "id": 137,
+          "text": "In terms of the normalized as we move towards more normalized mix.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 71, \"uuid\": \"bdb1c907-1c36-42ba-af5b-8687fee233e5\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 138,
+      "section": [
+        {
+          "id": 139,
+          "text": "Yes. So put -- and the simplest way to think about that maybe is our wholesale debt historically ran, I don't know, in the mid [Speech Overlap]",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 72, \"uuid\": \"92466889-7aa4-497b-a29e-8b0ba7b16719\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 140,
+      "section": [
+        {
+          "id": 141,
+          "text": "16% to 19%.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 73, \"uuid\": \"c4253347-4631-4dc2-8d5d-f8f644ffc48e\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 142,
+      "section": [
+        {
+          "id": 143,
+          "text": "Yeah, mid-teens, I was going to say, and we're running 5%. So if we normalize, that's what home loan in there. As we normalize our borrowings through time, it's likely we're going to get and fulfill that requirement without purposely trying to do it. Just because that's the way we and other people will be funding institutions.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 74, \"uuid\": \"07358847-36b7-4aba-a017-67462ffbb46a\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 144,
+      "section": [
+        {
+          "id": 145,
+          "text": "Yeah. I'd just add to that, that's -- we see it on our path. It's not particularly problematic, but there's a lot to be played out. We still don't think it's necessary and there's also a reasonable chance there would be some tailoring to it, which would be reduced in our case.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 75, \"uuid\": \"65d4be3e-8f8b-4d9d-b194-6dcf0c1343aa\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Ken Usdin",
+      "id": 146,
+      "section": [
+        {
+          "id": 147,
+          "text": "Yeah. And as a follow on to that, to your point about wholesale borrowings, funding loan growth incrementally, can you just talk about how you're thinking about the securities portfolio? I know you saw some growth this quarter. I know you're getting good front book, back book on it. The percentage of earning assets is still around 28%. So how would you expect that to go vis-a-vis the use of wholesale borrowings to continue to support that growth as well?Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Ken Usdin\", \"section_number\": 76, \"uuid\": \"2b94ce9b-fa2a-43d9-a2e8-9b7ae96d4f49\", \"speaker_title\": \"Analyst at Jefferies\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 148,
+      "section": [
+        {
+          "id": 149,
+          "text": "Look, you wouldn't purposely borrow wholesale and then invest in a security to hold in your securities book. However, inside of all the requirements that we manage ourselves to, we also have liquidity requirements, LCR and the need to hold high quality liquid assets. So the securities book will likely fade in terms of total percentage over time simply because of loan growth that we see in some of the roll down. That securities book is part of what we have in terms of cash and liquidity to satisfy LCR. So it's -- we're not going to say, hey, let's borrow some money to buy more treasuries, right? That isn't going to happen. But practically, we use that book to hedge the value of our deposits. We'll continue to do that and we'll continue to do that inside of the lens of LCR and other liquidity stresses that we run.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 77, \"uuid\": \"a3cde8e7-f674-41f0-9190-b4a45f39ccf9\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Ken Usdin",
+      "id": 150,
+      "section": [
+        {
+          "id": 151,
+          "text": "Got it. Okay. Thank you, Bill.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Ken Usdin\", \"section_number\": 78, \"uuid\": \"a3ae5635-7d9c-4b13-a9bd-73221726dd98\", \"speaker_title\": \"Analyst at Jefferies\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Mike Mayo",
+      "id": 152,
+      "section": [
+        {
+          "id": 153,
+          "text": "Hi.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Mike Mayo\", \"section_number\": 80, \"uuid\": \"7b3c4b93-2373-466e-b365-5edc2c7653b1\", \"speaker_title\": \"Analyst at Wells Fargo Securities, LLC\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 154,
+      "section": [
+        {
+          "id": 155,
+          "text": "Hey, Mike.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 81, \"uuid\": \"3931907f-c205-40d3-b329-00971ab564a6\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Mike Mayo",
+      "id": 156,
+      "section": [
+        {
+          "id": 157,
+          "text": "Well, I guess, in the category of no good deed goes unpunished, I mean you did have positive operating leverage last year of 300 basis points. You're guiding for positive operating leverage this year between I guess 200 and 600 basis points, your charge-offs were below 30 basis points every quarter. You're buying back some shares. Yet, your guidance from one month ago was off and your results fell one eighth [Phonetic] below consensus.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Mike Mayo\", \"section_number\": 82, \"uuid\": \"e1acd786-9aaa-4de0-ad57-2c24fbbd1385\", \"speaker_title\": \"Analyst at Wells Fargo Securities, LLC\"}"
+        },
+        {
+          "id": 158,
+          "text": "Now don't stop giving your guidance or anything like that, and we're all subject to the uncertainties out there. But just a little bit more about what's changed in the past month. So I guess, unemployment, your end rate assumption, you're saying it's over 5%, maybe where that's going to. And I guess that drove some of the CECL-driven reserve -- part of reserves, the NII and maybe your decision to lean into the securities purchases maybe because you think this is a relative top on yields? Thanks.",
+          "metadata_json": "{\"paragraph_number\": 2, \"speaker\": \"Mike Mayo\", \"section_number\": 82, \"uuid\": \"e1acd786-9aaa-4de0-ad57-2c24fbbd1385\", \"speaker_title\": \"Analyst at Wells Fargo Securities, LLC\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 159,
+      "section": [
+        {
+          "id": 160,
+          "text": "Yeah. So you're overcomplicating it. One thing changed from a month ago and one thing only. And that was basically the spread we thought we'd earn on new business, right? We know, Mike, that we can go out and grow loans. Our ability to gain clients, cross-sell those clients, we've never been more bullish on that. The process of doing that is not earning what we would otherwise expect in the moment because spreads have not widened, and of course, you take a full life of the loan reserve when you book that loan. That's the only thing that's really changed.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 83, \"uuid\": \"e954871e-7bc6-48de-91f6-59cff0b1b55e\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        },
+        {
+          "id": 161,
+          "text": "The expenses this quarter are noised. The guide for next year is tempered simply by that question of whether spreads are going to rise on loans, maybe they will or our CECL analysis will be wrong. We haven't -- we never guide on what our provision is going to be. We talk about charge-offs and the charge-off this quarter we felt was a bit anomalous. So nothing has really changed other than the sweat factor of, hey, can I actually earn what I thought I was going to earn on new loan production. That's it.",
+          "metadata_json": "{\"paragraph_number\": 2, \"speaker\": \"William S. Demchak\", \"section_number\": 83, \"uuid\": \"e954871e-7bc6-48de-91f6-59cff0b1b55e\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Mike Mayo",
+      "id": 162,
+      "section": [
+        {
+          "id": 163,
+          "text": "So you're saying you're too conservative either on CECL reserves or your NII guide for the year?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Mike Mayo\", \"section_number\": 84, \"uuid\": \"c45427b6-e9df-4b2c-87aa-0a5ffb52c591\", \"speaker_title\": \"Analyst at Wells Fargo Securities, LLC\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 164,
+      "section": [
+        {
+          "id": 165,
+          "text": "Yeah. Well, but I haven't given you a number on my CECL reserves, right? So -- but we put in -- we worsened our economic forecast. And the simple soundbite is, either spreads are going to widen or our economic forecast is wrong. I think that's a fair statement.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 85, \"uuid\": \"23eb3db2-fb34-426d-a524-82b875b8aa8f\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 166,
+      "section": [
+        {
+          "id": 167,
+          "text": "So there's an inconsistency there.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 86, \"uuid\": \"ba7690d3-2710-4a10-bcf2-8ce9dafc5c7d\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Mike Mayo",
+      "id": 168,
+      "section": [
+        {
+          "id": 169,
+          "text": "You give -- by the way, the CEO gig doesn't turn out maybe to come to the economists because this is such a detailed outlook in your release about what you expect the economy and interest rates and everything else. So you give a lot of detail.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Mike Mayo\", \"section_number\": 87, \"uuid\": \"f4f872a2-0608-44da-8d48-4fc92b354be1\", \"speaker_title\": \"Analyst at Wells Fargo Securities, LLC\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 170,
+      "section": [
+        {
+          "id": 171,
+          "text": "Yeah. You asked a question on the securities book. It's just -- we basically stayed pretty much in the same position all year. We get to reprice the book, and you see the income coming out of the securities book growing nicely. We haven't invested into it. It's a tough market to invest into if you are in effect a deposit-funded institution, right? If you want to go out and buy something today against your marginal cost of money, you're basically carrying flat to negative.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 88, \"uuid\": \"b975a520-aeb9-4233-b4e8-855d22781a0b\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        },
+        {
+          "id": 172,
+          "text": "Today on the theory that the Fed is going to cut to what down the road. And you got to believe that the Fed is going to go back into 2s on Fed funds, which I just fundamentally don't believe. So I think kind of the market is just uninvestable at the moment, and I think that's going to be figured out through the course of the year. And so there's upside if my view on that plays out in the way we run our securities book. But at the moment, there's no choosing to go along in this environment I think is a mistake.",
+          "metadata_json": "{\"paragraph_number\": 2, \"speaker\": \"William S. Demchak\", \"section_number\": 88, \"uuid\": \"b975a520-aeb9-4233-b4e8-855d22781a0b\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Mike Mayo",
+      "id": 173,
+      "section": [
+        {
+          "id": 174,
+          "text": "One more clarification. You are reserved for your existing book of business, assuming an unemployment rate of what level? I know it's above 5%.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Mike Mayo\", \"section_number\": 89, \"uuid\": \"0ba1077a-7473-417e-a1a6-b2bd66e0f8b7\", \"speaker_title\": \"Analyst at Wells Fargo Securities, LLC\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 175,
+      "section": [
+        {
+          "id": 176,
+          "text": "5.1%.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 90, \"uuid\": \"31806df3-c85e-476f-a851-d93b56df54d9\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Mike Mayo",
+      "id": 177,
+      "section": [
+        {
+          "id": 178,
+          "text": "Got it. All right. Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Mike Mayo\", \"section_number\": 91, \"uuid\": \"7b9eb077-24ef-47c8-b7e7-3e61d1244b63\", \"speaker_title\": \"Analyst at Wells Fargo Securities, LLC\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Ebrahim Poonawala",
+      "id": 179,
+      "section": [
+        {
+          "id": 180,
+          "text": "Good morning.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Ebrahim Poonawala\", \"section_number\": 93, \"uuid\": \"9d1d8dfa-f80e-4e06-a799-05b74ca5fc18\", \"speaker_title\": \"Analyst at Bank of America Merrill Lynch\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 181,
+      "section": [
+        {
+          "id": 182,
+          "text": "Good morning.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 94, \"uuid\": \"cc70bc3c-1cb0-419e-943e-47476bc32e5e\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Ebrahim Poonawala",
+      "id": 183,
+      "section": [
+        {
+          "id": 184,
+          "text": "On the NII guide, so I think you've spoken extensively about the spreads. Wanted to get how much of the inversion in the yield curve was a factor in impacting the NII outlook? And tied to that, like with the 10 years sub-340 this morning, like do you just not invest right now and wait for things to shake out or how do you think about balance sheet management in a world where maybe the 10 years headed to 3% not 4% next? Thanks.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Ebrahim Poonawala\", \"section_number\": 95, \"uuid\": \"878bcfe1-30ea-4b07-a0b6-1fd8c9694e24\", \"speaker_title\": \"Analyst at Bank of America Merrill Lynch\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 185,
+      "section": [
+        {
+          "id": 186,
+          "text": "Yeah. So that impacts the NII guide a bit only in terms of what our reinvestment yield is and will be when we -- when the existing security book rolls down, right? So you've seen the book yield on that rise from wherever to what is now 260 something.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 96, \"uuid\": \"fd382690-5891-40e5-8e50-469450d69969\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 187,
+      "section": [
+        {
+          "id": 188,
+          "text": "Yeah, the total book.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 97, \"uuid\": \"be3a03a8-6665-49da-8b56-a7ba4abb5c4d\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 189,
+      "section": [
+        {
+          "id": 190,
+          "text": "Yeah. And that continues to increase as we -- as things roll off, we're reinvesting with high 4s, 5 handles on securities. Look, if the 10-year goes to 3%, if you look at the five year and five years, the implication of where long-term rates really have to head for that to be true, I just don't buy. I don't think we're going to be in an environment where the Fed is bouncing short-term funds around 1%, which I just don't think it's going to happen. I think we're going to -- I think we will get inflation under control, but I think it's going to be a struggle to get it under 3 long-term. And I think front rates will rise -- will stay higher. They might cut and likely will cut from some 5% level. But this assumption that they're going to cut, and therefore, rates are going to go back to 2 or 1, I just think is absurd. So therefore, to me, the back end of that curve is uninvestable. You're right, it could rally to there. Good for the people who own it as long as it's not me.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 98, \"uuid\": \"96fcb4b6-cf06-48ea-a6a4-185314e58ca6\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Ebrahim Poonawala",
+      "id": 191,
+      "section": [
+        {
+          "id": 192,
+          "text": "Yeah. No, that's fair. And again, I'm not saying it makes sense, but it's the world we live in. And I guess tied to that, I'm not sure if you gave explicit guidance in just some of those terms of deposit growth outlook. I mean still a lot of room when we look at the loan-to-deposit ratio. Just give us a thought around how you're thinking about letting additional sort of rate-sensitive deposits run off, having a smaller balance sheet, creating more excess capital?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Ebrahim Poonawala\", \"section_number\": 99, \"uuid\": \"5b8976be-36cf-4b08-a516-de1fb36d65ab\", \"speaker_title\": \"Analyst at Bank of America Merrill Lynch\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 193,
+      "section": [
+        {
+          "id": 194,
+          "text": "Look, there's obviously -- we could, in the near-term, increase earnings by being less competitive with deposits and let deposits run off. We have the liquidity to do that. We could increase our loan-to-deposit ratio. The challenge with that is, in the course of doing that, you're damaging your long-term franchise. So if you're losing deposits that are not core relationship deposits then maybe that makes sense. But if you're losing customers in the process of that run off, that's a mistake. And that's the logic we use in figuring out how we price deposits and how we grow or maintain deposits.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 100, \"uuid\": \"a5ec10e5-a436-4be7-89d6-e7c82a204e77\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Ebrahim Poonawala",
+      "id": 195,
+      "section": [
+        {
+          "id": 196,
+          "text": "That's fair. And if I may, one last question, Bill. In terms of just the macro uncertainty, how do you assess like the difference between credit normalization and whether or not we're getting into some version of a recession? Like, can you conclusively think about that over the next few months or we're not going to know that until we are well into the depth of a downturn a few quarters from now?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Ebrahim Poonawala\", \"section_number\": 101, \"uuid\": \"a619b2bc-8033-4a8b-a9c8-b9e6c9262ee4\", \"speaker_title\": \"Analyst at Bank of America Merrill Lynch\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 197,
+      "section": [
+        {
+          "id": 198,
+          "text": "We've given you our best forecast. I mean, look, there's a lot of unknowns here. Technically, we could see ourselves heading into a full employment recession because you'll have stale GDP for a couple of quarters, but unemployment not ticking up to high levels. And I don't even know how to think about that environment in terms of what charge-offs might be. I mean that's probably really low charge-off environment.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 102, \"uuid\": \"f847786f-e4c3-47c6-a6bf-925a839b58ab\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 199,
+      "section": [
+        {
+          "id": 200,
+          "text": "Well, it's just to your point in terms of what I said at the beginning, it's really difficult for the full year, particularly this year. We've put together what we think we can do.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 103, \"uuid\": \"a016c276-7f4b-4737-8e6c-ffdb09668f4c\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Ebrahim Poonawala",
+      "id": 201,
+      "section": [
+        {
+          "id": 202,
+          "text": "That's fair. Thanks for taking my questions.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Ebrahim Poonawala\", \"section_number\": 104, \"uuid\": \"7d2ca771-6978-4b64-b72e-a852e5337099\", \"speaker_title\": \"Analyst at Bank of America Merrill Lynch\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Matt O'Connor",
+      "id": 203,
+      "section": [
+        {
+          "id": 204,
+          "text": "Good morning.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Matt O'Connor\", \"section_number\": 106, \"uuid\": \"2d8e1972-b5c0-407b-9d24-1421cd3338dc\", \"speaker_title\": \"Analyst at Deutsche Bank Equity Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 205,
+      "section": [
+        {
+          "id": 206,
+          "text": "Hey, Matt.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 107, \"uuid\": \"0c31f3e9-38a5-4b91-9ec5-46882c897b14\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Matt O'Connor",
+      "id": 207,
+      "section": [
+        {
+          "id": 208,
+          "text": "I was wondering if we could just circle back on some of the lumpy costs. I guess, just in aggregate, like how much were the impairment? And then I think there was also -- you had called out some lumpiness from the long-term intensive plan, which I think impacts both fees and comp. If you could just kind of flesh out the aggregate lumpy costs, that would be helpful? Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Matt O'Connor\", \"section_number\": 108, \"uuid\": \"72e57b2c-79e5-44af-b4d3-21127ea51684\", \"speaker_title\": \"Analyst at Deutsche Bank Equity Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 209,
+      "section": [
+        {
+          "id": 210,
+          "text": "Yeah. Without -- we don't have specific numbers. You can see them as they break down in terms of our impairments within the occupancy line and the equipment line. The long-term was just the effect of a benefit in the third quarter and then it swung against us in the fourth quarter. So not big numbers, but just the delta between the two quarters drove the increase.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 109, \"uuid\": \"7bac742e-5f5c-41a5-9a22-75d9f97307d3\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Matt O'Connor",
+      "id": 211,
+      "section": [
+        {
+          "id": 212,
+          "text": "Okay. And then separately, I mean, I heard you earlier kind of reiterate the 8.5% to 9% CET1 target over time. And just any thoughts on the regional banks kind of just below your size? It seems like they're all kind of building capital close to 10%. And I don't know if it pressures behind the scenes from rating agencies or regulators or just conservatism for where we are in the cycle. But any thoughts on the company of your size being able to run 9% when the ones -- obviously, the banks that are bigger are running higher, but it's just been interesting to note that the ones below you, kind of $200 billion in assets, all seem to be building closer to 10%?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Matt O'Connor\", \"section_number\": 110, \"uuid\": \"d3d397bf-26d7-4025-beee-d3fd99fe71ba\", \"speaker_title\": \"Analyst at Deutsche Bank Equity Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 213,
+      "section": [
+        {
+          "id": 214,
+          "text": "Do you want to answer?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 111, \"uuid\": \"e6b93cc6-7558-4fa6-bedf-5080085bbd07\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 215,
+      "section": [
+        {
+          "id": 216,
+          "text": "[Indecipherable]",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 112, \"uuid\": \"26bbd61d-f815-4fd1-9c13-e312614fcf4a\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 217,
+      "section": [
+        {
+          "id": 218,
+          "text": "Well, the only thing -- the only thoughts that I have just reacting is the guidelines are typically drawn for all banks in terms of the stress capital buffer. So how they stress, you got to look at that. And then it's the relative capital levels to the stress levels as opposed to the absolute levels. But that's just my reaction.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 113, \"uuid\": \"9b348eb7-14da-4ed8-b50b-fc6414687a5d\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Matt O'Connor",
+      "id": 219,
+      "section": [
+        {
+          "id": 220,
+          "text": "Okay. But I guess the point is like do you feel comfortable with whatever kind of behind the scene stuff that's going on with the rating agencies, regulators, the 9% and maybe drifting down a little bit over time, but at 9% do you feel real comfortable within the current environment?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Matt O'Connor\", \"section_number\": 114, \"uuid\": \"4a3d6c4a-af3d-4c42-929d-74a1c5dfaadb\", \"speaker_title\": \"Analyst at Deutsche Bank Equity Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 221,
+      "section": [
+        {
+          "id": 222,
+          "text": "Yes.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 115, \"uuid\": \"433590ce-6b2c-48cd-9b07-44c9bb9a1923\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 223,
+      "section": [
+        {
+          "id": 224,
+          "text": "Yes.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 116, \"uuid\": \"2b8ddceb-c71f-4e90-8be0-30a3fcf4940f\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Matt O'Connor",
+      "id": 225,
+      "section": [
+        {
+          "id": 226,
+          "text": "Okay. Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Matt O'Connor\", \"section_number\": 117, \"uuid\": \"b0308a59-a7af-45c1-a20a-564f69afa136\", \"speaker_title\": \"Analyst at Deutsche Bank Equity Research\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Vivek Juneja",
+      "id": 227,
+      "section": [
+        {
+          "id": 228,
+          "text": "Hi. Just a couple of quick ones. Any color on criticized assets, how they did -- how those did in the quarter?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Vivek Juneja\", \"section_number\": 119, \"uuid\": \"c1be2eec-e8d5-42f7-8bf6-6c63fba3093c\", \"speaker_title\": \"Analyst at J.P. Morgan\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 229,
+      "section": [
+        {
+          "id": 230,
+          "text": "Yeah, relatively flat, not a big change at all.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 120, \"uuid\": \"43764139-b7ff-447a-9788-40df8c4606fc\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Vivek Juneja",
+      "id": 231,
+      "section": [
+        {
+          "id": 232,
+          "text": "Okay. And Bill, just not to beat a dead horse to death, but the whole set of question on NII and swaps and protection, given that you think of swaps and securities sort of synonymously in terms of expressing your view on rates. I would expect that you're going to hold off, therefore, even on the swap side in terms of adding protection yet until you see clearer signs of a lot more potential for rate cuts?",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Vivek Juneja\", \"section_number\": 121, \"uuid\": \"fdf858d6-a23d-4136-b2f6-722754ace12f\", \"speaker_title\": \"Analyst at J.P. Morgan\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 233,
+      "section": [
+        {
+          "id": 234,
+          "text": "Yeah. It's -- I mean it's strange to me, Vivek, you're a bit of a fixed income guy, this notion of protection, I mean, what a lot of banks are doing is they will put on forward starting swaps and they will not have to eat negative carry in the course of doing that. And they will hope some time by the time those come due that there is a negative carry because there will be a cut.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 122, \"uuid\": \"a5e07069-e412-4161-8a84-617b82700d20\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        },
+        {
+          "id": 235,
+          "text": "So you effectively -- I mean everything is priced at the forward curve when they do that trade. It makes no sense to me. It's the same as choosing to invest at the moment on where the yield curve is. That's my downside protection. I can buy -- we can sell it, we can use options and sell away upside and buy some downside protection. As a practical matter, we're not wildly out of bounds in terms of -- while we're asset sensitive, we're not wildly asset sensitive. And it just doesn't feel like the moment when you're supposed to be long, particularly if you have a view that rates in the go forward decade are not going to look like rates during the 2012 to 2020 year. So that's where we sit.",
+          "metadata_json": "{\"paragraph_number\": 2, \"speaker\": \"William S. Demchak\", \"section_number\": 122, \"uuid\": \"a5e07069-e412-4161-8a84-617b82700d20\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Vivek Juneja",
+      "id": 236,
+      "section": [
+        {
+          "id": 237,
+          "text": "All right. Thanks.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Vivek Juneja\", \"section_number\": 123, \"uuid\": \"dd990373-8b6c-41fd-8e1e-a3822c6e75d5\", \"speaker_title\": \"Analyst at J.P. Morgan\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Bryan K. Gill",
+      "id": 238,
+      "section": [
+        {
+          "id": 239,
+          "text": "Well, thank you all for joining the call today. If you have any other follow-ups, please reach out to the IR team, and we'll be happy to help you out. Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Bryan K. Gill\", \"section_number\": 125, \"uuid\": \"382cf001-6d6c-4034-acc1-7aa90b7d58e9\", \"speaker_title\": \"Executive Vice President & Director, Investor Relations at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by William S. Demchak",
+      "id": 240,
+      "section": [
+        {
+          "id": 241,
+          "text": "Thanks, everybody.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"William S. Demchak\", \"section_number\": 126, \"uuid\": \"b8ee2f42-2e85-49d8-88a4-f74de3a716a8\", \"speaker_title\": \"Chairman, President & Chief Executive Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    },
+    {
+      "title": "Remarks by Robert Q. Reilly",
+      "id": 242,
+      "section": [
+        {
+          "id": 243,
+          "text": "Thank you.",
+          "metadata_json": "{\"paragraph_number\": 1, \"speaker\": \"Robert Q. Reilly\", \"section_number\": 127, \"uuid\": \"856eb278-cdf6-4a7c-aa51-15e4e0ece019\", \"speaker_title\": \"Chief Financial Officer at The PNC Financial Services Group\"}"
+        }
+      ]
+    }
+  ],
+  "document_id": "Q&A-PNC-Wed., January 18, 2023",
+  "title": "Q&A for PNC (The PNC Financial Services Group) on Wed., January 18, 2023",
+  "metadata_json": "{\"company_name\": \"The PNC Financial Services Group\", \"company_ticker\": \"PNC\", \"transcript_date\": \"Wed., January 18, 2023\", \"section_type\": \"Q&A\", \"transcript_url\": \"https://www.marketbeat.com/earnings/transcripts/84512/\", \"sector\": \"Finance\", \"department\": \"Engineering\"}"
+}

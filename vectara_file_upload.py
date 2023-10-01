@@ -74,12 +74,21 @@ def upload_file(customer_id: int, corpus_id: int, idx_address: str, filepath: st
     doc_metadata_json = json.dumps(doc_metadata)
     #Now create the dictionary that stores the file being uploaded and also the metadata field
     files={"file": (filepath, open(filepath, 'rb')), "doc_metadata": f"{doc_metadata_json}"}
-    
+
+    #If using the "d=true" option in the REST URL below then the response will include a "document" object
+    #that is the structured text that was generated during the extraction stage within the ingest pipeline.
     response = requests.post(
-        f"https://h.{idx_address}/upload?c={customer_id}&o={corpus_id}",
+        f"https://h.{idx_address}/upload?c={customer_id}&o={corpus_id}&d=false",
         files=files,
         verify=True,
         headers=post_headers)
+
+    #This code writes the response to a file. This is especially useful if using "d=true" in the URL above.
+    #response_filepath = filepath + ".json"
+    #logging.info("Writing response file to: %s", response_filepath)
+    #parsed_file = open(filepath, "w")
+    #parsed_file.write(response.text)
+    #parsed_file.close()
 
     if response.status_code != 200:
         logging.error("REST upload failed with code %d, reason %s, text %s",
@@ -104,7 +113,7 @@ def upload_dir(customer_id: int, corpus_id: int, idx_address: str, dirpath: str,
         The 'responses' item is an array containing the REST response object for each of the files
         that were processed to be uploaded.
     """
-    
+
     responses = {}
 
     for subdir, dirs, files in os.walk(dirpath):
@@ -216,7 +225,7 @@ def upload_s3bucket(customer_id: int, corpus_id: int, idx_address: str, s3bucket
     
     return responses, True
 
-def gdrive_authentication(gdrive_creds_file: str, use_service_account: bool):
+def gdrive_authentication(gdrive_creds_file: str, gdrive_auth_mode: str, gdrive_user_to_impersonate: str):
     """ Authenticates a client, using the provided credentials file, to Google Drive.
     Args:
         gdrive_creds_file: Path to local file that contains the Google Drive OAuth client ID credentials
@@ -230,29 +239,36 @@ def gdrive_authentication(gdrive_creds_file: str, use_service_account: bool):
 
     creds = None
 
-    if use_service_account:
-        creds_no_scopes = service_account.Credentials.from_service_account_file(gdrive_creds_file)
-        creds = creds_no_scopes.with_scopes(scopes)
+    if gdrive_auth_mode == 'service-account':
+        creds = service_account.Credentials.from_service_account_file(
+            gdrive_creds_file, scopes=scopes)
+
+        if gdrive_user_to_impersonate:
+            creds = creds.with_subject(gdrive_user_to_impersonate)
+
         return creds
 
-    # The file gdrive_token.json stores the user's access and refresh tokens, and is
-    # created automatically when the authorization flow completes for the first time.
-    if os.path.exists('gdrive_token.json'):
-        creds = Credentials.from_authorized_user_file('gdrive_token.json', scopes)
+    if gdrive_auth_mode == 'oauth':
+        # The file gdrive_token.json stores the user's access and refresh tokens, and is
+        # created automatically when the authorization flow completes for the first time.
+        if os.path.exists('gdrive_token.json'):
+            creds = Credentials.from_authorized_user_file('gdrive_token.json', scopes)
 
-    # If there are no (valid) credentials available, let the user log in.
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                gdrive_creds_file, scopes)
-            creds = flow.run_local_server(port=0)
-        # Save the credentials for the next run
-        with open('gdrive_token.json', 'w') as token:
-            token.write(creds.to_json())
+        # If there are no (valid) credentials available, let the user log in.
+        if not creds or not creds.valid:
+            if creds and creds.expired and creds.refresh_token:
+                creds.refresh(Request())
+            else:
+                flow = InstalledAppFlow.from_client_secrets_file(
+                    gdrive_creds_file, scopes)
+                creds = flow.run_local_server(port=0)
+            # Save the credentials for the next run
+            with open('gdrive_token.json', 'w') as token:
+                token.write(creds.to_json())
 
-    return creds
+        return creds
+
+    return None
 
 def find_base_folder(gdrive_service, base_folder_path: str):
     """ Takes a path to a potentially nested folder in the Google Drive "My Drive" location, and
@@ -290,6 +306,7 @@ def find_base_folder(gdrive_service, base_folder_path: str):
                                        pageSize=10, fields="nextPageToken, files(id, name)").execute()
             items = results.get('files', [])
             if not items:
+                #TODO if we get here, try finding the base folder via another way
                 logging.info('No folders found in ' + folder)
                 return {}
             #logging.info('Folders:')
@@ -344,50 +361,81 @@ def get_files_from_folder(gdrive_service, folder):
             return []
         #logging.info('Files:')
         for item in items:
-            #logging.info(u'{0} ({1})'.format(item['name'], item['id']))
+            logging.info(u'{0} ({1})'.format(item['name'], item['id']))
             #remember the path to the folder that contains this file
-            item['path'] = folder['path']
+            if folder is None or 'path' not in folder:
+                item['path'] = "/"
+            else:
+                item['path'] = folder['path'] + folder['name'] + '/'
+            #item['path'] = folder['path'] + folder['name'] if 'path' in folder else '/'
             files.append(item)
     except HttpError as error:
         logging.error(f'An error occurred when finding the Google Drive files within a folder: {error}')
 
     return files
 
-def get_folders_from_folder(gdrive_service, folder):
+def get_parent_folder(gdrive_service, item_id):
+    item = gdrive_service.files().get(fileId=item_id, fields='id, parents, name').execute()
+    logging.info("Item=" + str(item))
+    if 'parents' not in item:
+        return {"id": "", "name": "", "path": "/"}
+    else:
+        if len(item['parents']) > 1:
+            logging.error("Parents list for item with ID " + item_id + " has " + len(item['parents']) + " parents.")
+        parent_folder = gdrive_service.files().get(fileId=item['parents'][0], fields='id, parents, name').execute()
+        logging.info("Parent of " + item_id + " is " + str(parent_folder))
+        return parent_folder
+
+
+def get_folders_from_folder(gdrive_service, folder, folder_id_to_parent_folder_map):
     """ Returns all folders within a given Google Drive folder. This includes folders in any nested
     subfolders within the specified folder.
     Args:
         gdrive_service: A Google Drive service object
         folder: Dictionary containing information on the folder from which to get the nested folders
+        folder_id_to_parent_folder_map: mapping of gdrive folder/file ID to a dict representing the parent folder
     Returns:
         List of dictionaries, each with 'id' (unique ID of the folder in Google Drive), 'name' (name of the base
         folder), and 'path' (complete path to the base folder from the root of the My Drive location)
     """
-    logging.info("Getting list of subfolders in folder " + str(folder))
+    logging.info("Getting list of subfolders in folder " + ("/" if 'path' not in folder else (folder['path'] + folder['name'])))
     folders = []
 
     parent_query = ""
     if folder:
         parent_query = " and '" + folder['id'] + "' in parents"
 
+        #get parent folder of this folder
+        if folder["id"] not in folder_id_to_parent_folder_map:
+            folder_id_to_parent_folder_map[folder["id"]] = get_parent_folder(gdrive_service, folder["id"])
+
     try:
-        #logging.info("get_folders_from_folder: parent_query=" + parent_query)
         results = gdrive_service.files().list(q="mimeType = 'application/vnd.google-apps.folder'" + parent_query,
             pageSize=1000, fields="nextPageToken, files(id, name)").execute()
         items = results.get('files', [])
 
         if not items:
-            logging.info('No subfolders found in folder with id ' + str(folder))
+            #logging.info('No subfolders found in folder with id ' + str(folder))
             return []
-        #logging.info('Folders:')
+
         new_folders = []
+
         for item in items:
-            #logging.info(u'{0} ({1})'.format(item['name'], item['id']))
-            item['path'] = folder['path'] + '/' + item['name']
+            #logging.info(u'  {0} ({1}) in folder {2}'.format(item['name'], item['id'], str(folder)))
+            logging.info("Adding folder: " + str(item))
+
+        for item in items:
+            #logging.info(u'{0} ({1}) in folder {2}'.format(item['name'], item['id'], str(folder)))
+            if 'path' not in folder:
+                item['path'] = "/"
+            else:
+                item['path'] = folder['path'] + folder['name'] + '/'
             folders.append(item)
             #logging.info("Adding folder: " + str(item))
             #now recursively get any subfolder(s) in the current folder
-            new_folders.extend(get_folders_from_folder(gdrive_service, item))
+            if item['id'] not in folder_id_to_parent_folder_map:
+                logging.info("**** Haven't crawled this folder recursively yet: " + str(item))
+                new_folders.extend(get_folders_from_folder(gdrive_service, item, folder_id_to_parent_folder_map))
         folders.extend(new_folders)
     except HttpError as error:
         logging.error(f'An error occurred when finding the Google Drive subfolders within a folder: {error}')
@@ -449,7 +497,7 @@ def index_gdrive_files(customer_id: int, corpus_id: int, idx_address: str,
             continue
 
         logging.info("Uploading " + file['path'] + "/" + file['name'])
-
+        continue
         #first download the file locally
 
         try:
@@ -509,6 +557,22 @@ def index_gdrive_files(customer_id: int, corpus_id: int, idx_address: str,
 
     return responses
 
+def get_gdrive_item_path(folder_id_to_parent_folder_map, item_id):
+    logging.info("    Getting path for " + item_id)
+    path = ""
+    parent_folder = folder_id_to_parent_folder_map[item_id]
+    while parent_folder is not None:
+        path = parent_folder["name"] + path
+        parent_folder_id = parent_folder["parents"][0] if 'parents' in parent_folder else ""
+        logging.info("      Parent is " + parent_folder["name"] + "; parent's parent is: " + parent_folder_id)
+        if parent_folder_id is not None and parent_folder_id in folder_id_to_parent_folder_map:
+            parent_folder = folder_id_to_parent_folder_map[parent_folder["parents"][0]]
+            path = "/" + path
+        else:
+            parent_folder = None
+
+    return "/" + path
+
 def upload_gdrive_folder(customer_id: int, corpus_id: int, idx_address: str,
                          gdrive_folder: str, creds, extensions: str, jwt_token: str):
     """ Uploads file from a Google Drive folder to the corpus. This traverses all nested
@@ -543,19 +607,30 @@ def upload_gdrive_folder(customer_id: int, corpus_id: int, idx_address: str,
         base_folder = find_base_folder(gdrive_service, gdrive_folder)
 
         # Get a list of the files in the base folder
-        files.extend(get_files_from_folder(gdrive_service, base_folder))
+        #files.extend(get_files_from_folder(gdrive_service, base_folder))
 
         # Get a list of the (potentially nested) subfolder(s) within the base folder
-        folders.extend(get_folders_from_folder(gdrive_service, base_folder))
+        folder_id_to_parent_folder_map = {}
+        folders.extend(get_folders_from_folder(gdrive_service, base_folder, folder_id_to_parent_folder_map))
+
+        logging.info("Folder parent mapping:")
+        for folder_id in folder_id_to_parent_folder_map:
+            logging.info("  " + folder_id + "=" + str(folder_id_to_parent_folder_map[folder_id]))
+
+        logging.info("Folders:")
+        for folder in folders:
+            logging.info("  [" + folder['id'] + "] - " +
+                         get_gdrive_item_path(folder_id_to_parent_folder_map, folder['id'])
+                         + "/" + folder['name'])
 
         # Get the files from within the (potentially nested) subfolder(s)
-        for folder in folders:
+        #for folder in folders:
             #logging.info("Getting files from subfolder " + folder)
-            files.extend(get_files_from_folder(gdrive_service, folder))
+            #files.extend(get_files_from_folder(gdrive_service, folder))
 
         # Index all the files
-        responses = index_gdrive_files(customer_id, corpus_id, idx_address, files,
-                                       gdrive_service, extensions, jwt_token)
+        #responses = index_gdrive_files(customer_id, corpus_id, idx_address, files,
+        #                               gdrive_service, extensions, jwt_token)
     except HttpError as error:
         logging.info(f'An error occurred when uploading from Google Drive: {error}')
 
@@ -602,9 +677,13 @@ if __name__ == "__main__":
                         default="")
 
     # works with source=gdrive
-    parser.add_argument("--gdrive_folder", help="Folder within the user's My Drive location in their Google Drive "
+    parser.add_argument("--gdrive-folder", help="Folder within the user's My Drive location in their Google Drive "
                                                 "account from which to upload.")
-    parser.add_argument("--gdrive_creds_file", help="Local file with credentials for the user's Google Drive account.")
+    parser.add_argument("--gdrive-creds-file", help="Local file with credentials for the user's Google Drive account.")
+    parser.add_argument("--gdrive-auth-mode", help="Manner of authentication to Google Drive. Valid values are 'oauth' "
+                                                   "and 'service-account'.", default="service-account", required=False)
+    parser.add_argument("--gdrive_user_to_impersonate", help="Email address of user to impersonate when access Google "
+                                                             "Drive via a service account.", required=False)
 
     args = parser.parse_args()
 
@@ -623,7 +702,7 @@ if __name__ == "__main__":
                                           args.local_file_path,
                                           args.extensions,
                                           token)
-                    logging.info("Upload file response: %s", result.text if status else result['text'])
+                    logging.info("Upload file response: \n%s", result.text if status else result['text'])
                 if args.local_dir_path:
                     result, status = upload_dir(args.customer_id,
                                           args.corpus_id,
@@ -631,7 +710,7 @@ if __name__ == "__main__":
                                           args.local_dir_path,
                                           args.extensions,
                                           token)
-                    logging.info("Upload directory response: %s", result)
+                    logging.info("Upload directory response: \n%s", result)
             elif args.source == 's3':
                 if args.s3_bucket:
                     result, status = upload_s3bucket(args.customer_id,
@@ -641,13 +720,14 @@ if __name__ == "__main__":
                                           args.s3_path_prefix,
                                           args.extensions,
                                           token)
-                    logging.info("Upload S3 bucket response: %s", result)
+                    logging.info("Upload S3 bucket response: \n%s", result)
             elif args.source == 'gdrive':
                 if args.gdrive_folder is None or args.gdrive_creds_file is None:
                     logging.error("You must provide 'gdrive_folder' and 'gdrive_creds_file' "
                                   "arguments to upload from Google Drive")
                 else:
-                    creds = gdrive_authentication(args.gdrive_creds_file, True)
+                    creds = gdrive_authentication(args.gdrive_creds_file, args.gdrive_auth_mode,
+                                                  args.gdrive_user_to_impersonate)
                     result, status = upload_gdrive_folder(args.customer_id,
                                           args.corpus_id,
                                           args.indexing_endpoint,
@@ -655,6 +735,6 @@ if __name__ == "__main__":
                                           creds,
                                           args.extensions,
                                           token)
-                    logging.info("Upload Google Drive folder response: %s", result)
+                    logging.info("Upload Google Drive folder response: \n%s", result)
         else:
             logging.error("Could not generate an auth token. Please check your credentials.")

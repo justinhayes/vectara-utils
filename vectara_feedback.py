@@ -402,7 +402,7 @@ if __name__ == "__main__":
                                     args.corpus_id,
                                     token,
                                     args.dirpath)
-                logging.info("Upload dir response: \n%s", result)
+                logging.info("Index dir response: \n%s", result)
             elif args.operation == 'upload':
                 result = upload_dir(args.customer_id,
                                     args.corpus_id,
